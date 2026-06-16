@@ -1,0 +1,34 @@
+{
+  "name": "42ai-mcpiscine",
+  "version": "1.0.0",
+  "description": "Atelier MCP pour 42AI — apprendre le Model Context Protocol en branchant son propre serveur à un agent Claude.",
+  "homepage": "https://github.com/MatLBS/42ai-MCPiscine#readme",
+  "bugs": {
+    "url": "https://github.com/MatLBS/42ai-MCPiscine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatLBS/42ai-MCPiscine.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "agent",
+    "step-1-calculator",
+    "step-2-42api"
+  ],
+  "dependencies": {
+    "prettier": "^3.8.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
