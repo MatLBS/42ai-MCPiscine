@@ -161,5 +161,3 @@ mcpiscine/
 - [API 42 Docs](https://api.intra.42.fr/apidoc)
 
 ---
-
-_Atelier organisé par **42AI** — MCPiscine_
