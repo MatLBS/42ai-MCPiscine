@@ -26,7 +26,7 @@ L'agent (fourni, dans `agent/`) :
 ### Prérequis
 
 - Node.js ≥ 18
-- Une clé API Anthropic : https://console.anthropic.com/
+- Une clé API Anthropic : https://docs.google.com/document/d/19UEDpStA53YHTHrujO5mkUnJjLbSJldycJcjnOfY4ig/edit?usp=sharing
 
 ### 1. Installe les dépendances
 
@@ -45,8 +45,8 @@ Run :
 ```
 curl -X POST "https://api.intra.42.fr/oauth/token" \
   -d "grant_type=client_credentials" \
-  -d "client_id=<uid>" \
-  -d "client_secret=<secret>"
+  -d "client_id=u-s4t2ud-b80ddd2e22ada9dcb235cdfd1638ae236d1c8da66c8d12674aa31965f4542aeb" \
+  -d "client_secret=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"
 ```
 
 Édite `agent/.env` :
@@ -155,6 +155,7 @@ mcpiscine/
 
 ## Pour aller plus loin
 
+- [MCP 42](https://github.com/MatLBS/42-mcp-server)
 - [Spec officielle MCP](https://modelcontextprotocol.io)
 - [SDK TypeScript MCP](https://github.com/modelcontextprotocol/typescript-sdk)
 - [Liste de serveurs MCP](https://github.com/punkpeye/awesome-mcp-servers)
