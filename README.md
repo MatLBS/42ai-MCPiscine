@@ -26,7 +26,7 @@ L'agent (fourni, dans `agent/`) :
 ### Prérequis
 
 - Node.js ≥ 18
-- Une clé API Anthropic : https://docs.google.com/document/d/19UEDpStA53YHTHrujO5mkUnJjLbSJldycJcjnOfY4ig/edit?usp=sharing
+- Une clé API Anthropic :
 
 ### 1. Installe les dépendances
 
